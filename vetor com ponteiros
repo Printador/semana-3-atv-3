@@ -28,11 +28,9 @@ int main() {
     for (i = 0; i < tam; i++)
       printf("%d ", *(vet + i));
     printf("\n");
-    
-  else {printf("Erro.\n");}    
-  }
+
+    free(vet); void free(void *vet);
   
-  free(): void free(void *vet);
-  
+  }   
   return 0;
 }  
