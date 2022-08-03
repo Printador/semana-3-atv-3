@@ -32,7 +32,7 @@ int main() {
   else {printf("Erro.\n");}    
   }
   
-  free(): void free(void*vet);
+  free(): void free(void *vet);
   
   return 0;
 }  
