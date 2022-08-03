@@ -30,8 +30,9 @@ int main() {
     printf("\n");
     
   else {printf("Erro.\n");}    
-  } 
+  }
+  
+  free(): void free(void*vet);
+  
   return 0;
 }  
-
-#free(): void free(void*vet);
